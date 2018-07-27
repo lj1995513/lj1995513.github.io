@@ -120,7 +120,7 @@
 <meta property="og:site_name" content="Jing">
 <meta property="og:description" content="$y=Ax$，$y\in R^m$是观测到的信号，$x\in R^n$为原始信号，$A\in R^{m\times n}$。$m\lt n$时，这个方程或者无解，或者有无穷多解。如何从这无穷多个解中找到x？我们可以利用x的其他性质，对这个方程添加约束。假设x是一个稀疏向量，一个明智的目标就是找到最稀疏的向量x，使其满足$y=Ax $，即：$$ min\lVert x\rVert_0 \text{">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-07-27T09:16:27.622Z">
+<meta property="og:updated_time" content="2018-07-27T09:19:27.506Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="压缩感知笔记(1)">
 <meta name="twitter:description" content="$y=Ax$，$y\in R^m$是观测到的信号，$x\in R^n$为原始信号，$A\in R^{m\times n}$。$m\lt n$时，这个方程或者无解，或者有无穷多解。如何从这无穷多个解中找到x？我们可以利用x的其他性质，对这个方程添加约束。假设x是一个稀疏向量，一个明智的目标就是找到最稀疏的向量x，使其满足$y=Ax $，即：$$ min\lVert x\rVert_0 \text{">
@@ -380,7 +380,7 @@
                 
               
 
-              <time title="创建时间：2018-07-27 10:49:50 / 修改时间：17:16:27" itemprop="dateCreated datePublished" datetime="2018-07-27T10:49:50+08:00">2018-07-27</time>
+              <time title="创建时间：2018-07-27 10:49:50 / 修改时间：17:19:27" itemprop="dateCreated datePublished" datetime="2018-07-27T10:49:50+08:00">2018-07-27</time>
             
 
             
@@ -457,7 +457,7 @@
 <p>梯度下降<br>$$x_{k+1} = x_k-\nabla f(x_k)$$</p>
 </blockquote>
 <blockquote>
-<p>将点z投影到平面C即在平面中找到距离z最近的点x: $P_C[z] = \mathop{\arg\min}_{x\in C}{\frac{1}{2}\lVertz-x\rVert_2^2}$<br>对于封闭的凸集有毕解<br>$$P_C[z] = z-A^T(AA^T)^{-1}(Az-y)$$</p>
+<p>将点z投影到平面C即在平面中找到距离z最近的点x: $P_C[z] = \mathop{\arg\min}_{x\in C}{\frac{1}{2}\lVert z-x\rVert_2^2}$<br>对于封闭的凸集有毕解<br>$$P_C[z] = z-A^T(AA^T)^{-1}(Az-y)$$</p>
 </blockquote>
 <blockquote>
 <p>投影梯度下降<br>$$x_{k+1} = P_C[x_k-t_k\nabla f(x_k)]$$</p>
